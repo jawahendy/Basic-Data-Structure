@@ -59,17 +59,17 @@ function Sumarraywithsplice(arr) {
   console.log(Sumarraywithsplice([2, 5, 1, 5, 2, 1]));
 
 ////////////////////////////////////////////////////
-//soal 6 = change DarkGoldenRod to DarkSalmon and //insert "DarkSalmon", "BlanchedAlmond"
+//soal 6 = change DarkGoldenRod to DarkSalmon and insert "DarkSalmon", "BlanchedAlmond" to array
 ///////////////////////////////////////////////////
 
-function insertwithsplice(arr) {
+function insertsplice(arr) {
     
   arr.splice(0, 2, "DarkSalmon", "BlanchedAlmond");
     
     return arr;
   }
   
-  console.log(insertwithsplice(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurqoise', 'FireBrick']));
+  console.log(insertsplice(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurqoise', 'FireBrick']));
 
 /////////////////////////////////////////////////////
 //soal no 7 = using slice untuk print warm and sunny
@@ -121,7 +121,7 @@ function Speedcheck(arr, elemen) {
 
     // Or
 
-    return arr.indexOf(elem) >= 0 ? true : false;
+    return arr.indexOf(elemen) >= 0 ? true : false;
   }
   console.log(Speedcheck(['hendy', 'joko', 'juko'], 'jeno'));
   
@@ -154,7 +154,7 @@ let NestedArray = [
     ['iterate', 1.3849, 7, '8.4876', 'arbitrary', 'depth',[[['deepest']]]]
   ];
 
-console.log(NestedArray)
+// console.log(NestedArray)
 
 ////////////////////////////////////////////////////
 //soal 13 Pairs to JavaScript Objects
@@ -195,12 +195,12 @@ const Activity = {
 //////////////////////////////////////////////////
 
 const color = {
-    Red: 25,
-    Blue: 32,
-    White: 28,
-    Black: 13,
-    Red: 35,
-    Grey: 27
+    Red: 1,
+    Blue: 2,
+    White: 3,
+    Black: 4,
+    Red: 5,
+    Grey: 6
   };
   
   function checkInvent(scan) {
@@ -329,12 +329,12 @@ const user = {
     }
   };
   
-  function getOfUsers(obj) {
+  function getUsers(obj) {
   return Object.keys(obj);
   
   }
   
-  console.log(getOfUsers(user));
+  console.log(getUsers(user));
 
 ///////////////////////////////////////////////////
 //soal 20 Array Stored in an Object
