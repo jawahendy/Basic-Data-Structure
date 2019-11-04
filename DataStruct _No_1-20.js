@@ -48,6 +48,7 @@ function usingpopShift(arr) {
 
 ////////////////////////////////////////////////////
 //soal 5 splice(2,3) start index in number 2 and total delete 3 elemen in start 2
+//splice()= mengubah konten dari array dengan menghapus elemen yang ada dan/atau menambah elemen baru
 ///////////////////////////////////////////////////
 
 function Sumarraywithsplice(arr) {
@@ -173,7 +174,7 @@ const drinks = {
   console.log(drinks);
 
 ///////////////////////////////////////////////////
-//soal 14  Object Nested Within an Object
+//soal 14  Object Nested Within an Object change online 42 to 45
 //////////////////////////////////////////////////
 
 const Activity = {
@@ -232,6 +233,9 @@ const color = {
 
 ////////////////////////////////////////////////////
 //soal 17 Object has a Property
+//hasOwnProperty () = mengembalikan boolean yang menunjukkan 
+//                    apakah objek memiliki properti yang ditentukan 
+//                    sebagai properti sendiri
 ///////////////////////////////////////////////////
 
 const users = {
